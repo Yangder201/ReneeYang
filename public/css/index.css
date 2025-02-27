@@ -2746,12 +2746,12 @@ footer {
 #root {
     width: 1250px;
     height: 70vh;
-    padding-top: 8vh;
+    padding-top: 10vh;
     margin: auto;
-    color: #ffffff70;
+    color: #fff4e998;
     font-size: 5.5rem;
     font-family: 'CP Font';
-    line-height: 8rem;
+    line-height: 7.5rem;
     font-weight: 300;
     text-align: center;
 }
