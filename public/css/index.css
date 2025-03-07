@@ -1399,6 +1399,17 @@ mark {
 
 }
 
+#intro_bg{
+    width: 70vw;
+    height: fit-content;
+    padding: 5vh 0;
+    margin: 10vh auto;
+    background: #0a0a0ae6;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+
+}
 
 #trait {
     width: 100%;
@@ -1440,6 +1451,7 @@ mark {
     margin-top: 20px;
     font-weight: bold;
     font-size: 1.8rem;
+    line-height: 2.5rem;
     display: block;
     position: relative;
     z-index: 3;
@@ -2759,22 +2771,18 @@ footer {
 }
 
 
-#intro_bg{
-    width: 70vw;
-    height: fit-content;
-    padding: 5vh 0;
-    margin: 10vh auto;
-    background: #0a0a0ae6;
-    border-radius: 50px;
-    position: relative;
-    z-index: 2;
-
+.open_text{
+    display: none;
 }
+
+
 
 
 @media only screen and (max-width: 1440px) {
 
-
+    .tit-m {
+        color: #f5d6a5 !important;
+    }
 
     #root {
         width: 1150px;
@@ -2982,12 +2990,45 @@ footer {
 
     }
 
+    #intro_bg{
+        width: 75vw;
+        height: fit-content;
+        padding: 5vh 0;
+        margin: 10vh auto;
+        background: #0a0a0ae6;
+        border-radius: 50px;
+        position: relative;
+        z-index: 2;
+    
+    }
+    
+    .wrap {
+        max-width: 960px;
+        margin: 10vh auto 0 auto;
+    }
+
 }
 
 
 @media only screen and (max-width: 1024px) {
 
 
+    #intro_bg{
+        width: 85vw;
+        height: fit-content;
+        padding: 5vh 0;
+        margin: 10vh auto;
+        background: #0a0a0ae6;
+        border-radius: 50px;
+        position: relative;
+        z-index: 2;
+    
+    }
+    
+    .wrap {
+        max-width: 800px;
+        margin: 10vh auto 0 auto;
+    }
 
 
     #root {
@@ -3890,6 +3931,57 @@ footer {
 
 @media only screen and (max-width: 425px) {
 
+
+
+
+    #root{
+        display: none !important;
+    }
+
+    .open_text{
+        display: block;
+        width: 82vw;
+        height: 70vh;
+        padding-top: 14vh;
+        margin: auto;
+        color: #fff4e998;
+        font-size: 3rem;
+        letter-spacing: 3pt;
+        font-family: 'CP Font';
+        line-height: 3.5rem;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+
+    #trait_area {
+        border-radius:80px;
+    
+    }
+    
+    #intro_bg{
+        width: 90vw;
+        height: fit-content;
+        padding: 5vh 0;
+        margin: 10vh auto;
+        background: #0a0a0ae6;
+        border-radius: 50px;
+        position: relative;
+        z-index: 2;
+    
+    }
+    
+    .wrap {
+        max-width: 800px;
+        margin: 10vh auto 0 auto;
+    }
+
+    .question h3 {
+        border-radius: 10px;
+
+    }
+    
+
     #header-fixed {
         position: fixed;
 
@@ -3921,17 +4013,15 @@ footer {
         white-space: normal;
     }
 
-    .tit-m {
-        color: #f5d6a5 !important;
-    }
+ 
 
     .name {
         padding-top: 10vh;
     }
 
     .main_photo {
-        left: 75%;
-        transform: translateX(-75%);
+        left: 100%;
+        transform: translateX(-100%);
         bottom: -30px;
     }
 
@@ -4306,6 +4396,21 @@ footer {
 
 @media only screen and (max-width: 375px) {
 
+
+    .open_text{
+        display: block;
+        width: 82vw;
+        height: 70vh;
+        padding-top: 14vh;
+        margin: auto;
+        color: #fff4e998;
+        font-size: 2.8rem;
+        letter-spacing: 2pt;
+        font-family: 'CP Font';
+        line-height: 3.2rem;
+        font-weight: 300;
+        text-align: left;
+    }
     .main_photo img {
         max-width: 280px;
     }
