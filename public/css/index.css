@@ -746,8 +746,8 @@ button {
 .info_text:nth-child(1) {
     opacity: 0.2;
     transform: translateY(40px);
-    font-size: 3rem;
-
+    font-family: 'ChenYuLuoyan Thin';
+    font-size: 2.5rem;
     line-height: 3rem;
     font-weight: 600;
     color: #f8b474;
@@ -756,6 +756,7 @@ button {
 .info_text:nth-child(2) {
     opacity: 0;
     transform: translateY(50px);
+    font-family: 'ChenYuLuoyan Thin';
     font-size: 2.5rem;
     /* 增大字體 */
     line-height: 1.5rem;
@@ -763,6 +764,19 @@ button {
     font-weight: 500;
     color: #fcd39e;
 }
+
+.info_text {
+    margin: 0;
+    opacity: 0;
+    padding: 10px 0;
+    transform: translateY(20px);
+    font-family: '微軟正黑體';
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: 1pt;
+    font-weight: 200;
+}
+
 
 .info_text:nth-child(7) {
     margin-top: 20px;
@@ -783,17 +797,6 @@ button {
     color: #bfbfbf;
 }
 
-.info_text {
-    margin: 0;
-    opacity: 0;
-    padding: 10px 0;
-    transform: translateY(20px);
-    font-family: 'ChenYuLuoyan Thin';
-    font-size: 2rem;
-    line-height: 2.5rem;
-    letter-spacing: 2pt;
-    font-weight: 200;
-}
 
 
 
