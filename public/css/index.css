@@ -743,38 +743,47 @@ button {
 }
 
 
+.info_text {
+    margin: 0;
+    opacity: 0;
+    padding: 5px 0;
+    transform: translateY(20px);
+    font-family: '微軟正黑體';
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    letter-spacing: 1pt;
+    font-weight: 200;
+}
+
+
 .info_text:nth-child(1) {
     opacity: 0.2;
     transform: translateY(40px);
-    font-family: 'ChenYuLuoyan Thin';
-    font-size: 2.5rem;
-    line-height: 3rem;
+    /* font-family: 'ChenYuLuoyan Thin'; */
+    padding-top: 8vh;
+    font-size: 1.2rem;
+    line-height: 0.5rem;
     font-weight: 600;
     color: #f8b474;
+}
+
+.en{
+    font-size: 1rem;
+    margin-left: .5rem;
+    font-weight: 400;
+    letter-spacing: 1pt;
 }
 
 .info_text:nth-child(2) {
     opacity: 0;
     transform: translateY(50px);
-    font-family: 'ChenYuLuoyan Thin';
-    font-size: 2.5rem;
+    /* font-family: 'ChenYuLuoyan Thin'; */
+    font-size: 1.1rem;
     /* 增大字體 */
-    line-height: 1.5rem;
-    margin-bottom: 35px;
+    line-height: 3rem;
+    margin-bottom: 30px;
     font-weight: 500;
     color: #fcd39e;
-}
-
-.info_text {
-    margin: 0;
-    opacity: 0;
-    padding: 10px 0;
-    transform: translateY(20px);
-    font-family: '微軟正黑體';
-    font-size: 1.3rem;
-    line-height: 2rem;
-    letter-spacing: 1pt;
-    font-weight: 200;
 }
 
 
