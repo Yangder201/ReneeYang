@@ -725,9 +725,9 @@ button {
     font-size: 1.1rem;
     font-weight: 400;
     z-index: 1;
-    bottom: 120%;
+    bottom: 100%;
     /* 提示文字會顯示在文字上方 */
-    left: 30%;
+    left: 80%;
     margin-left: -30px;
     /* 確保提示框居中 */
     opacity: 0;
@@ -741,6 +741,50 @@ button {
     opacity: 1;
 
 }
+
+
+
+
+/* 移入出現提示文字框2 */
+.podcasttip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px dashed #4b4b4b;
+}
+
+.podcasttiptext {
+   visibility: hidden;
+    min-width: 500px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: 3px solid #ffffff;
+    color: #383838;
+    text-align: left;
+    border-radius: 15px;
+    padding: 20px 20px;
+    position: absolute;
+    font-size: 1.1rem;
+    font-weight: 400;
+    z-index: 3;
+    bottom: -70%;
+    /* 提示文字會顯示在文字上方 */
+    left: 100%;
+    margin-left: 20px;
+    /* 確保提示框居中 */
+    opacity: 0;
+    /* 初始隱藏提示文字 */
+    transition: opacity 0.3s;
+}
+
+.podcasttip:hover .podcasttiptext {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+
 
 
 .info_text {
