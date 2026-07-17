@@ -239,10 +239,10 @@ a:active {
 
 .tit {
     width: 100%;
-    font-size: 1.2rem;
-    padding: 5px 0;
+    font-size: 1.3rem;
+    padding: 5px 0 10px 0;
     font-weight: 700;
-    color: #7b5c46;
+    color: #333333;
     /* border-bottom: 3px solid rgba(110, 102, 88, 0.753); */
 }
 
