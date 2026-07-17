@@ -310,8 +310,8 @@ button {
 
 
 #cssmenu {
-    font-family: 'ChenYuLuoyan Thin';
-    font-size: 2rem;
+    font-family: '微軟正黑體';
+    font-size: 1rem;
 }
 
 
@@ -754,7 +754,7 @@ button {
 }
 
 .podcasttiptext {
-   visibility: hidden;
+    visibility: hidden;
     min-width: 500px;
     height: fit-content;
     background-color: rgba(255, 255, 255, 0.781);
@@ -1180,15 +1180,16 @@ mark {
 
 
 #logo {
-    padding: 23px;
+    padding: 24px;
     width: 20%;
-    font-size: 2rem;
-    font-family: 'ChenYuLuoyan Thin';
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    font-weight: 300;
     position: relative;
     z-index: 88;
     float: left;
-
+    letter-spacing: 0.5pt;
+    color: #ffffff91;
     /* animation-name: loading;
     animation-duration: 0.3s;
     animation-delay: 1.8s;
@@ -1210,11 +1211,11 @@ mark {
 
 
 #logo a {
-    color: #ffffff;
+    color: #ffffff91;
 }
 
 #logo a:hover {
-    color: #272727 !important;
+    color: #ffffff !important;
     transition: .2s ease-out;
 }
 
