@@ -259,8 +259,17 @@ button {
 
 #header-fixed {
     background: rgb(255 255 255 / 8%);
-    backdrop-filter: blur(5px);
-    box-shadow: rgb(57 57 57 / 13%) 0px 2px 15px;
+    /* backdrop-filter: blur(5px); */
+    /* box-shadow: rgb(57 57 57 / 13%) 0px 2px 15px; */
+
+    -webkit-backdrop-filter: blur(var(--blur, 5px)) url("#lgnav") saturate(var(--sat, 1.35));
+    backdrop-filter: blur(var(--blur, 5px)) url("#lgnav") saturate(var(--sat, 1.35));
+    box-shadow:
+     0 8px 32px rgb(42 42 42 / 18%), 
+     inset 0 1px 1px rgb(132 97 67 / 40%), 
+     inset 0 -1px 1px rgb(186 186 186 / 18%);
+    transition: backdrop-filter 0.15s ease;
+
     width: 75vw;
     border-radius: 15px;
     color: rgb(51, 51, 51);
