@@ -65,7 +65,7 @@
 #cssmenu>ul>li {
   float: left;
   margin: 6px 5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 #cssmenu.align-center>ul {
@@ -112,7 +112,7 @@
   /* border-bottom: #ffa12dd1 3px solid; */
   background: #ffffff42;
   color: #202020 !important;
-  border-radius: 3px;
+  border-radius: 8px;
   transition: .3s;
 
 }
@@ -139,7 +139,7 @@
 .focus{
   background: #fffffff3;
   color: #000000 !important;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: .7s;
 }
 
