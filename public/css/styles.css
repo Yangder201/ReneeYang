@@ -93,8 +93,7 @@
 #cssmenu>ul>li>a {
   margin-top: 2px;
   padding: 20px 25px;
-  font-size: 1.125rem;
-  font-weight: 400;
+
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
