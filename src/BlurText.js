@@ -50,7 +50,7 @@ const BlurText = ({
     observer.observe(ref.current);
 
     return () => observer.disconnect();
-  }, [threshold, rootMargin]);
+  }, [threshold, rootMargin,animationDelay]);
 
   const springs = useSprings(
     elements.length,

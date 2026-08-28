@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import BlurText from './BlurText';   // 引入 BlurText 元件
 
 
