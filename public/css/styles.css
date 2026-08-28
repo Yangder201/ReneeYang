@@ -64,7 +64,7 @@
 } */
 #cssmenu>ul>li {
   float: left;
-  margin: 3px 5px;
+  margin: 6px 5px;
   border-radius: 5px;
 }
 
@@ -92,7 +92,7 @@
 
 #cssmenu>ul>li>a {
   margin-top: 2px;
-  padding: 20px 25px;
+  padding: 15px 25px;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 3px;
@@ -137,7 +137,7 @@
 } */
 
 .focus{
-  background: #ffffff;
+  background: #fffffff3;
   color: #000000 !important;
   border-radius: 10px;
   transition: .7s;
