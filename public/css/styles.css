@@ -35,7 +35,7 @@
   height: 65px;
   opacity: 0;
 
-  animation: open_menu .7s ease 2s 1 forwards;
+  animation: open_menu .5s ease 1s 1 forwards;
 
 
 }
@@ -92,7 +92,7 @@
 
 #cssmenu>ul>li>a {
   margin-top: 2px;
-  padding: 15px 25px;
+  padding: 15px 20px;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 3px;
@@ -285,6 +285,11 @@
 
     animation: none;
   }
+
+
+  #cssmenu>ul>li>a{
+        padding: 15px 10px;
+    }
 
 }
 

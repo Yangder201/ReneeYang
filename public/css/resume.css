@@ -70,7 +70,7 @@ a:active {
 #container {
     width: 90vw;
     max-width: 1200px;
-    height: 85vh;
+    height: 90vh;
     min-height: 678px;
     margin: auto;
     border-radius: 50px;
@@ -163,11 +163,10 @@ a:active {
 }
 
 .name {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'ChenYuLuoyan Thin','Noto Serif TC', 'Noto Sans TC', sans-serif;
     font-weight: 500;
     letter-spacing: 2pt;
-    padding-top: 10px;
     color: #1e1e1e;
 }
 
@@ -212,7 +211,7 @@ a:active {
 .tools-h {
     width: 45%;
     margin: 5px;
-    padding-top: 15px;
+    padding-top: 8px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
@@ -240,7 +239,7 @@ a:active {
 .tit {
     width: 100%;
     font-size: 1.3rem;
-    padding: 5px 0 10px 0;
+    padding: 0 0 7px 0;
     font-weight: 700;
     color: #333333;
     /* border-bottom: 3px solid rgba(110, 102, 88, 0.753); */
@@ -270,7 +269,7 @@ a:active {
     height: inherit;
     min-height: 678px;
     width: 60%;
-    padding: 3vh 2vw;
+    padding: 1.5vh 2vw;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -332,7 +331,7 @@ a:active {
     margin: 10px 15px;
     font-size: 1.1rem;
     font-weight: 450;
-    line-height: 1.8em;
+    line-height: 1.6em;
     height: fit-content;
 }
 
@@ -351,7 +350,7 @@ footer {
     z-index: 999;
     position: relative;
     text-align: center;
-    margin-top: -5vh;
+    margin-top: -4vh;
     margin-bottom: 2vh;
 }
 
@@ -371,7 +370,7 @@ footer {
     content: '看詳細版';
     position: absolute;
     right: 4vw;
-    bottom: 30vh;
+    bottom: 32vh;
     width: 65px;
     height: 20px;
     padding: 8px 15px 10px 15px;
@@ -390,8 +389,8 @@ footer {
 #cat::before {
     content: '';
     position: absolute;
-    right: 5vw;
-    bottom: 30vh;
+    right: 5.5vw;
+    bottom: 31.5vh;
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
