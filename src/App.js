@@ -16,7 +16,7 @@ function App() {
         <div className="blur-text-container" id="root">
           <BlurText
             text="#網站 #UIUX　#前端 #PM
-            #獨立 #體貼 　#認真 #效率 #理性兼感性 　　　#換位思考#深思熟慮　　　　　#同理心"
+            #獨立 #體貼 　#認真 #效率 #理性兼感性 　　　#換位思考#深思熟慮　　　　#同理　"
             delay={40}
             animateBy="words"
             direction="top"
